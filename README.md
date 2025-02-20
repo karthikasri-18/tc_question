@@ -1,13 +1,53 @@
 # Movie-Themed Coding Contest - README
 
-## Overview
-Welcome to the Movie-Themed Coding Contest! This contest consists of six coding problems, each inspired by a popular Gen Z movie or series. The problems range from easy to hard difficulty and are designed to be solved in a HackerRank-style format.
+
+
+## Easy Problem
+
+# Harry Potter Spell Counter
+
+## Problem Statement
+Harry is practicing his spells at Hogwarts. He casts a sequence of spells, and you need to count how many times he casts his favorite spell, **"Expelliarmus"**.
+
+## Input Format
+- First line: An integer **N** representing the number of spells cast.
+- Second line: **N** space-separated spell names.
+
+## Output Format
+- A single integer representing the count of "Expelliarmus" spells.
+
+## Sample Input
+```
+8
+Lumos Expelliarmus Alohomora Expelliarmus WingardiumLeviosa Expelliarmus Expelliarmus Accio
+```
+
+## Sample Output
+```
+4
+```
+
+## Explanation
+The spell **"Expelliarmus"** appears **4 times** in the list.
 
 ---
 
-## Problems
+## Solution (Python)
+```python
+# Read input
+N = int(input())
+spells = input().split()
 
-### **Easy Level**
+# Count the occurrences of "Expelliarmus"
+count = spells.count("Expelliarmus")
+
+# Print the result
+print(count)
+```
+
+
+
+### **Medium Level**
 
 ### **1. Spider-Verse Dimension Hopper**
 **Theme:** *Spider-Man: Across the Spider-Verse*
@@ -130,11 +170,5 @@ for _ in range(T):
 
 ---
 
-## **Contest Rules**
-1. **Language:** Solutions should be written in Python.
-2. **Time Limit:** Each problem has a predefined execution time limit.
-3. **Correctness:** Ensure your solution handles edge cases correctly.
-4. **Multiple Attempts:** Participants can attempt problems multiple times.
 
-Good luck, and may the code be ever in your favor! 🚀🎬
 
