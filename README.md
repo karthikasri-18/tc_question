@@ -2,7 +2,7 @@
 
 
 
-## Easy Problem 1
+## Medium Problem 1 
 
 # Harry Potter Spell Counter
 
@@ -33,21 +33,82 @@ The spell **"Expelliarmus"** appears **4 times** in the list.
 ---
 
 ## Solution (Python)
-```python
-# Read input
-N = int(input())
-spells = input().split()
+```c
+#include <stdio.h>
+#include <string.h>
 
-# Count the occurrences of "Expelliarmus"
-count = spells.count("Expelliarmus")
+int main() {
+    int N;
+    scanf("%d", &N);  // Read the number of spells
 
-# Print the result
-print(count)
+    char spells[1000][20];  // Assuming each spell name is at most 20 characters
+    for (int i = 0; i < N; i++) {
+        scanf("%s", spells[i]);  // Read each spell
+    }
+
+    int count = 0;
+    for (int i = 0; i < N; i++) {
+        if (strcmp(spells[i], "Expelliarmus") == 0) {  // Check if the spell is "Expelliarmus"
+            count++;
+        }
+    }
+
+    printf("%d\n", count);  // Print the count
+    return 0;
+}
 ```
 
 Here’s the problem statement in a README-friendly format:  
 
 ---
+
+## Easy problem 1
+#Fight Club's Mysterious Number
+
+Problem Statement
+
+The first rule of Fight Club is: "You do not talk about Fight Club."The second rule is: "Every number in our code must be the sum of its own digits multiplied by 4."
+
+Task
+
+Find the smallest positive integer that satisfies the rule:
+
+The sum of its digits, when multiplied by 4, should be equal to the number itself.
+
+Input Format
+
+No input is required. The program should compute the mysterious number automatically.
+
+Output Format
+
+Print a single integer representing the smallest number satisfying the condition.
+
+Constraints
+
+The number must be a positive integer.
+
+Sample Output
+
+12
+
+Explanation
+
+For 12:
+
+Sum of digits: 1 + 2 = 3
+
+3 * 4 = 12 ✅ (Matches the original number)
+Thus, 12 is the smallest number satisfying the rule.
+
+Solution Approach
+
+Start from 1 and check each number.
+
+Compute the sum of its digits.
+
+Multiply the sum by 4 and check if it equals the original number.
+
+Return the first such number found.
 
 ## Easy problem 2
 # Hunger Games - Food Ration Distribution  
