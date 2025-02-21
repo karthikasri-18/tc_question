@@ -222,7 +222,7 @@ print(min_jumps(N, C, energy_costs))
 **Theme:** *Wednesday (Netflix Series)*
 
 #### **Problem Statement**
-Wednesday Addams finds a cryptic message in Nevermore Academy. The message is encoded using a substitution cipher where each letter is shifted by a certain number of places in the alphabet.
+Wednesday Addams finds a cryptic message in Nevermore Academy. The message is encoded using a substitution cipher where each letter is shifted by a certain number of places in the alphabet. **(Note: Alphabets are shifted backwards) **
 
 Given an encoded message and a shift value, decode the message back to its original form.
 
