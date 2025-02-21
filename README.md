@@ -49,7 +49,7 @@ Here’s the problem statement in a README-friendly format:
 
 ---
 
-# Easy problem 2
+## Easy problem 2
 # Hunger Games - Food Ration Distribution  
 
 ## Problem Statement  
@@ -93,9 +93,9 @@ Average : 20
 ```  
 
 
-### **Medium Level**
+## **Medium Level**
 
-### **1. Spider-Verse Dimension Hopper**
+# **Spider-Verse Dimension Hopper**
 **Theme:** *Spider-Man: Across the Spider-Verse*
 
 #### **Problem Statement**
@@ -155,9 +155,9 @@ print(min_jumps(N, C, energy_costs))
 
 ---
 
-### **Medium Level**
+## **Medium Level**
 
-### **3. Wednesday's Cryptic Message Decoder**
+# **Wednesday's Cryptic Message Decoder**
 **Theme:** *Wednesday (Netflix Series)*
 
 #### **Problem Statement**
