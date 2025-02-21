@@ -2,7 +2,7 @@
 
 
 
-## Easy Problem
+## Easy Problem 1
 
 # Harry Potter Spell Counter
 
@@ -45,6 +45,52 @@ count = spells.count("Expelliarmus")
 print(count)
 ```
 
+Here’s the problem statement in a README-friendly format:  
+
+---
+
+# Easy problem 2
+# Hunger Games - Food Ration Distribution  
+
+## Problem Statement  
+In District 12, food is scarce. Katniss needs to distribute food rations equally among the districts.  
+
+## Task  
+Write a program that:  
+- Accepts a list of integers representing food rations for **N** districts.  
+- Outputs the **total food available** and the **average rations per district**.  
+
+## Input Format  
+- The first line contains an integer **N** (number of districts).  
+- The second line contains **N space-separated integers**, representing the food rations for each district.  
+
+## Output Format  
+- Print the total food available in the format:  
+  ```
+  Total : X
+  ```  
+- Print the average rations per district (integer division) in the format:  
+  ```
+  Average : Y
+  ```  
+
+## Constraints  
+- **1 ≤ N ≤ 100**  
+- **1 ≤ food rations ≤ 1000**  
+
+## Example  
+
+### **Input**  
+```
+3  
+10 20 30  
+```  
+
+### **Output**  
+```
+Total : 60  
+Average : 20  
+```  
 
 
 ### **Medium Level**
